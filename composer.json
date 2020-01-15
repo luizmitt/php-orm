@@ -1,0 +1,18 @@
+{
+    "name": "luizschmitt/php-orm",
+    "description": "PHP ORM",
+    "type": "library",
+    "authors": [
+        {
+            "name": "luizschmitt",
+            "email": "lzschmitt@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Lz\\PhpOrm\\": "src",
+            "Test\\": "test"
+        }
+    }
+}

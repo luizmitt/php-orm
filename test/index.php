@@ -14,6 +14,8 @@ $mysql->connect([
 ]);
 
 $user = new Users($mysql);
-$user->first();
 
-echo $user->username;
+$user->id = 5;
+$user->username = 'luiz.vieira';
+$user->password = md5('cadastradopelosistema');
+$user->save();
